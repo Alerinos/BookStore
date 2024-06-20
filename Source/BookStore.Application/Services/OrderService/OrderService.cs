@@ -3,7 +3,7 @@ using BookStore.Domain.Repositories;
 
 namespace BookStore.Application.Services;
 
-internal class OrderService(
+public class OrderService(
     IOrdersRepository _ordersRepository
     ) : IOrderService
 {
